@@ -1,0 +1,27 @@
+---
+abstract: 'A collection of Attribute and Class traits to turn on various'
+author:
+  - 'Tomas Doran <bobtfish@bobtfish.net> (t0m on #moose)'
+build_requires:
+  ExtUtils::MakeMaker: 6.42
+  Test::Exception: 0
+configure_requires:
+  ExtUtils::MakeMaker: 6.42
+distribution_type: module
+generated_by: 'Module::Install version 0.91'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: MooseX-StrictAttributes
+no_index:
+  directory:
+    - inc
+    - t
+requires:
+  Moose: 0.60
+  Scope::Upper: 0
+  namespace::clean: 0
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.0001
